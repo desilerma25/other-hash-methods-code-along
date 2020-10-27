@@ -8,6 +8,8 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+# simply calling .values will keep the array 
+# using .flatten will flatten the array of arrays 
 def get_the_values(groceries)
-  #code your solution here!
+  groceries.values.flatten
 end
